@@ -36,7 +36,6 @@ export function LoginForm({
 }: React.ComponentPropsWithoutRef<"div">) {
   const [state, formAction] = useFormState(SignInAction, initialState);
 
-  console.log(state);
 
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
